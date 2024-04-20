@@ -75,9 +75,11 @@ driver.quit()
 # result_data = DataFrame({'translateContents':translateContents})
 # print(result_data)
 
-# # 4. 변환된 dataFrame을 csv 파일로 저장
+# # 4. 변환된 dataFrame을 xlsx 파일로 저장
 # df['translateText'] = result_data["translateContents"]
 # print(df)
 # savePath = ""
 # df.to_excel('E:/2.Personal_Project/test2.xlsx',index=False)
+
+
 
