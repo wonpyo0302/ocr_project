@@ -7,7 +7,10 @@
 
     # 3. 진행 순서
     # 1) OCR 기술 활용
-
+        # 1.1) 이미지에서 문서 엣지 검출 후 이미지 변환
+        # 1.2) 텍스트 영역 찾기
+        # 1.3) 찾은 텍스트 영역에서 OCR 진행할 순서 정렬하기
+        # 1.4) OCR 진행하여 텍스트 추출
 
     # 2) 문서의 주제를 반환해주는 모델 학습
         # 2.1) https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset 데이터셋 활용
