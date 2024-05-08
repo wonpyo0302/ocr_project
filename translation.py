@@ -50,13 +50,13 @@ for index, data in enumerate(df['Text']):
             
             textBox.send_keys(data)
             time.sleep(5)
-            
+
             wait.until(expected_conditions.presence_of_element_located((By.CSS_SELECTOR,"#txtTarget > span")))
             contents = driver.find_element(By.ID,'txtTarget').text
             translateContents.append(contents)
 
             print("{}번째 번역 확인: {}".format(index,contents[:20]))
-            print("-----------------------{}번째 번역이 완료----------------------".format(index))
+            print("-----------------------{}번째 번역이 완료----------------------\n".format(index))
             if index % 300 == 0 and index != 0:
                 
                 # 3. 번역문 및 문장의 주제를 dataFrame으로 변환
