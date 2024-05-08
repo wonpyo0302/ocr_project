@@ -39,7 +39,7 @@ driver.get(url_gpt)
 main_window = driver.current_window_handle # 현재 창의 윈도우 핸들 저장
 driver.execute_script("window.open('{}');".format(url_papago))
 time.sleep(1)
-print("데이터프레임 길이: {}".format(len(df)))
+print("데이터프레임 길이: {}".format(len(df['ㅅ'])))
 # # 2. 데이터프레임의 TEXT 번역
 num = 0
 # for index, data in enumerate(df['Text']):
